@@ -157,3 +157,7 @@ fi
 
 # Disable trap DEBUG on subshells - https://github.com/Bash-it/bash-it/pull/1040
 set +T
+
+# https://github.com/cykerway/complete-alias
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+source ~/.bash_completion.d/complete_alias
