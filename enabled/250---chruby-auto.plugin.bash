@@ -1,0 +1,1 @@
+../plugins/available/chruby-auto.plugin.bash
