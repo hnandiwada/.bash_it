@@ -10,6 +10,7 @@ alias l='ls -AF'
 alias v='vim'
 
 alias ~='cd ~'
+alias cdw='cd ~/workspace'
 
 alias tilt='/usr/local/bin/tilt'
 
