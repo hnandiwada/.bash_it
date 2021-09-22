@@ -16,6 +16,7 @@ alias kga='kubectl get all'
 alias kgaa='kubectl get all -A'
 alias kdesca='kubectl describe all'
 alias kdescaa='kubectl describe all -A'
+alias kdela='kubectl delete --all'
 
 alias kgp='kubectl get po'
 alias kgpa='kubectl get po -A'

@@ -16,6 +16,7 @@ complete -F _complete_alias kga
 complete -F _complete_alias kgaa
 complete -F _complete_alias kdesca
 complete -F _complete_alias kdescaa
+complete -F _complete_alias kdela
 
 complete -F _complete_alias kgp
 complete -F _complete_alias kgpa
