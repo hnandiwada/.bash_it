@@ -12,6 +12,7 @@ alias lsa='ls -AF'
 alias l='ls -AF'
 
 alias v='vim'
+alias vim=nvim
 
 alias ~='cd ~'
 alias cdw='cd ~/workspace'
