@@ -16,6 +16,8 @@ alias vim=nvim
 
 alias ~='cd ~'
 alias cdw='cd ~/workspace'
+alias z='fasd_cd -d'
+alias zz='fasd_cd -d -i'
 
 alias tilt='/usr/local/bin/tilt'
 
