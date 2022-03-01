@@ -41,6 +41,8 @@ alias gcom='git checkout master'
 alias gcpd='git checkout master; git pull; git branch -D'
 alias gct='git checkout --track'
 
+alias main='git checkout main'
+
 # clone
 alias gcl='git clone'
 
@@ -116,6 +118,9 @@ alias glum='git pull upstream master'
 alias gpl='git pull'
 alias gpp='git pull && git push'
 alias gpr='git pull --rebase'
+
+alias rebase='git stash && git pull origin main && git stash pop'
+alias pull='git stash && git pull && git stash pop'
 
 # remote
 alias gr='git remote'

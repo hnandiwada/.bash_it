@@ -2,13 +2,6 @@ export do='--dry-run=client -o yaml'
 
 alias mk=minikube
 
-alias gst='git status'
-
-alias main='git checkout main'
-
-alias rebase='git stash && git pull origin main && git stash pop'
-alias pull='git stash && git pull && git stash pop'
-
 alias lsa='ls -AF'
 alias l='ls -AF'
 
