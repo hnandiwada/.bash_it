@@ -7,6 +7,7 @@ alias gst='git status'
 alias main='git checkout main'
 
 alias rebase='git stash && git pull origin main && git stash pop'
+alias pull='git stash && git pull && git stash pop'
 
 alias lsa='ls -AF'
 alias l='ls -AF'
@@ -24,3 +25,5 @@ alias tilt='/usr/local/bin/tilt'
 alias dockere=docker
 
 alias brewe=brew
+
+alias activate='source venv/bin/activate'
