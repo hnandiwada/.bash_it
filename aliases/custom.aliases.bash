@@ -20,3 +20,7 @@ alias dockere=docker
 alias brewe=brew
 
 alias activate='source venv/bin/activate'
+
+alias first='tmux new-session -s first'
+alias second='tmux new-session -s second -t first'
+alias resize='tmux setw -g aggressive-resize on'
