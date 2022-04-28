@@ -158,6 +158,8 @@ alias gsr='git svn rebase' # Git SVN
 
 # stash
 alias gst='git stash'
+alias gstsh='git stash show'
+alias gstshp='git stash show -p'
 alias gstb='git stash branch'
 alias gstd='git stash drop'
 alias gstl='git stash list'
