@@ -19,6 +19,7 @@ alias dockere=docker
 
 alias brewe=brew
 
+alias venv='python3 -m venv venv && activate && pip3 install -r requirements.txt $$ pip3 install neovim pynvim isort black'
 alias activate='source venv/bin/activate'
 
 alias first='tmux new-session -s first'
