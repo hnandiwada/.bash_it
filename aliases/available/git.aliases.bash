@@ -120,7 +120,7 @@ alias gpp='git pull && git push'
 alias gpr='git pull --rebase'
 
 alias rebase='git stash && git pull origin main && git stash pop'
-alis greb='git rebase'
+alias greb='git rebase'
 alias pull='git stash && git pull && git stash pop'
 
 # remote
