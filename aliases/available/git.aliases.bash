@@ -141,6 +141,9 @@ alias gprom='git fetch origin master && git rebase origin/master && git update-r
 alias gus='git reset HEAD'
 alias gpristine='git reset --hard && git clean -dfx'
 
+# restore
+alias grest='git restore --staged'
+
 # status
 alias gs='git status'
 alias gss='git status -s'
