@@ -121,6 +121,7 @@ alias gpr='git pull --rebase'
 
 alias rebase='git stash && git pull origin main && git stash pop'
 alias greb='git rebase'
+alias grebc='git rebase --continue'
 alias pull='git stash && git pull && git stash pop'
 
 # remote
