@@ -118,10 +118,6 @@ alias glum='git pull upstream master'
 alias gpl='git pull'
 alias gpp='git pull && git push'
 alias gpr='git pull --rebase'
-
-alias rebase='git stash && git pull origin main && git stash pop'
-alias greb='git rebase'
-alias grebc='git rebase --continue'
 alias pull='git stash && git pull && git stash pop'
 
 # remote
@@ -138,6 +134,10 @@ alias grbc='git rebase --continue'
 alias grm='git rebase master'
 alias grmi='git rebase master -i'
 alias gprom='git fetch origin master && git rebase origin/master && git update-ref refs/heads/master origin/master' # Rebase with latest remote master
+
+alias rebase='git stash && git pull origin main && git stash pop'
+alias greb='git rebase'
+alias grebc='git rebase --continue'
 
 # reset
 alias gus='git reset HEAD'
