@@ -28,6 +28,7 @@ alias gca='git commit -v -a'
 alias gcaa='git commit -a --amend -C HEAD' # Add uncommitted and unstaged changes to the last commit
 alias gcam='git commit -v -am'
 alias gcamd='git commit --amend'
+alias gC='git commit --amend'
 alias gcm='git commit -v -m'
 alias gci='git commit --interactive'
 alias gcsam='git commit -S -am'
