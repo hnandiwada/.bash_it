@@ -23,6 +23,7 @@ alias makee=make
 
 alias venv='deactivate; yarn venv && activate && pip3 install neovim pynvim isort black'
 alias activate='source venv/bin/activate'
+alias python='python3'
 
 alias first='tmux new-session -s first'
 alias second='tmux new-session -s second -t first'
