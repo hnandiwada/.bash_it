@@ -77,6 +77,7 @@ alias ggs='gg --stat'
 alias gll='git log --graph --pretty=oneline --abbrev-commit'
 alias gnew='git log HEAD@{1}..HEAD@{0}' # Show commits since last pull, see http://blogs.atlassian.com/2014/10/advanced-git-aliases/
 alias gwc='git whatchanged'
+alias gr='git recent'
 
 # ls-files
 alias gu='git ls-files . --exclude-standard --others' # Show untracked files
@@ -122,7 +123,6 @@ alias gpr='git pull --rebase'
 alias pull='git stash && git pull && git stash pop'
 
 # remote
-alias gr='git remote'
 alias gra='git remote add'
 alias grv='git remote -v'
 
