@@ -137,6 +137,7 @@ alias grmi='git rebase master -i'
 alias gprom='git fetch origin master && git rebase origin/master && git update-ref refs/heads/master origin/master' # Rebase with latest remote master
 
 alias rebase='git stash && git pull origin main && git stash pop'
+alias rebasens='git pull origin main'
 alias greb='git rebase'
 alias grebc='git rebase --continue'
 
