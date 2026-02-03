@@ -41,6 +41,7 @@ Stop polluting your `~/bin` directory and your `.bashrc` file, fork/clone Bash-i
 1) Check out a clone of this repo to a location of your choice, such as
    ``git clone --depth=1 git@github.com:hnandiwada/.bash_it.git ~/.bash_it``
 2) Run ``~/.bash_it/install.sh``
+3) You may need to ``chsh -s /bin/bash`` to permanently change your shell
 
 That's it! :smiley:  
 
