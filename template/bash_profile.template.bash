@@ -6,6 +6,8 @@ case $- in
     *) return;;
 esac
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Path to the bash it configuration
 export BASH_IT="{{BASH_IT}}"
 
