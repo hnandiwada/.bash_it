@@ -39,7 +39,7 @@ Stop polluting your `~/bin` directory and your `.bashrc` file, fork/clone Bash-i
 ## Installation
 
 1) Check out a clone of this repo to a location of your choice, such as
-   ``git clone --depth=1 https://github.com/hnandiwada/bash-it.git ~/.bash_it``
+   ``git clone --depth=1 git@github.com:hnandiwada/.bash_it.git ~/.bash_it``
 2) Run ``~/.bash_it/install.sh``
 
 That's it! :smiley:  
