@@ -7,6 +7,7 @@ case $- in
 esac
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(zoxide init bash)"
 
 # Path to the bash it configuration
 export BASH_IT="{{BASH_IT}}"
