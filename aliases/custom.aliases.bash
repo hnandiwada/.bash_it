@@ -21,7 +21,7 @@ alias brewe=brew
 
 alias makee=make
 
-alias venv='deactivate; yarn venv && activate && pip3 install neovim pynvim isort black ruff'
+alias venv='deactivate; yarn venv && activate && pip3 install neovim pynvim isort black ruff boto3-stubs'
 alias activate='source venv/bin/activate'
 alias python='python3'
 
