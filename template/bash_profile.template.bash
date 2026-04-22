@@ -80,5 +80,8 @@ export SCM_CHECK=true
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
 
+# uv
+export PATH="/Users/harshanandiwada/.local/bin:$PATH"
+
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
